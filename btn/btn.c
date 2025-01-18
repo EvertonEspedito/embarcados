@@ -39,5 +39,6 @@ int main()
         } else { // Botão solto
             gpio_put(LED_PIN_RED, 0); // Desliga o LED
         }
+       
     }
 }
